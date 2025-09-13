@@ -22,86 +22,86 @@ print(f"""{choices[0]}. Apple
 # Then I will ask the user to enter their guess.
 guess = input("Enter your guess (letters only): ")
 # Then I will check if the user's input is valid (letters only).
-while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-    if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+    if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
         print("Invalid input! Please enter again. (Letters only): ")
         guess = input("Enter your guess (letters only): ")
     else:
         break
 # Then I will check if the user's guess is correct or not and give them 9 tries, and also check in each if statement if the input is valid or not.
-if guess not in Answer:
+if guess.lower() not in Answer:
     print("Incorrect! you have 8 trie left")
     guess = input("Enter your guess (letters only): ")
-    while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-        if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+    while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+        if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
             print("Invalid input! Please enter again. (Letters only): ")
             guess = input("Enter your guess (letters only): ")
         else:
             break
-    if guess not in Answer:
+    if guess.lower() not in Answer:
         print("Incorrect! you have 7 trie left")
         guess = input("Enter your guess (letters only): ")
-        while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-            if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+        while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+            if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                 print("Invalid input! Please enter again. (Letters only): ")
                 guess = input("Enter your guess (letters only): ")
             else:
                 break
-        if guess not in Answer:
+        if guess.lower() not in Answer:
             print("Incorrect! you have 6 trie left")
             guess = input("Enter your guess (letters only): ")
-            while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+            while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                     print("Invalid input! Please enter again. (Letters only): ")
                     guess = input("Enter your guess (letters only): ")
                 else:
                     break
-            if guess not in Answer:
+            if guess.lower() not in Answer:
                 print("Incorrect! you have 5 trie left")
                 guess = input("Enter your guess (letters only): ")
-                while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                    if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+                while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                    if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                         print("Invalid input! Please enter again. (Letters only): ")
                         guess = input("Enter your guess (letters only): ")
                     else:
                         break
-                if guess not in Answer:
+                if guess.lower() not in Answer:
                     print("Incorrect! you have 4 trie left")
                     guess = input("Enter your guess (letters only): ")
-                    while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                        if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+                    while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                        if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                             print("Invalid input! Please enter again. (Letters only): ")
                             guess = input("Enter your guess (letters only): ")
                         else:
                             break
-                    if guess not in Answer:
+                    if guess.lower() not in Answer:
                         print("Incorrect! you have 3 trie left")
                         guess = input("Enter your guess (letters only): ")
-                        while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                            if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+                        while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                            if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                                 print("Invalid input! Please enter again. (Letters only): ")
                                 guess = input("Enter your guess (letters only): ")
                             else:
                                 break
-                        if guess not in Answer:
+                        if guess.lower() not in Answer:
                             print("Incorrect! you have 2 trie left")
                             guess = input("Enter your guess (letters only): ")
-                            while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                                if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+                            while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                                if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                                     print("Invalid input! Please enter again. (Letters only): ")
                                     guess = input("Enter your guess (letters only): ")
                                 else:
                                     break
-                            if guess not in Answer:
+                            if guess.lower() not in Answer:
                                 print("Incorrect! you have 1 trie left")
                                 guess = input("Enter your guess (letters only): ")
-                                while not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
-                                    if not guess == "a" and not guess == "b" and not guess == "c" and not guess == "d" and not guess == "e" and not guess == "f" and not guess == "g" and not guess == "h" and not guess == "i" and not guess == "j":
+                                while not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
+                                    if not guess.lower() == "a" and not guess.lower() == "b" and not guess.lower() == "c" and not guess.lower() == "d" and not guess.lower() == "e" and not guess.lower() == "f" and not guess.lower() == "g" and not guess.lower() == "h" and not guess.lower() == "i" and not guess.lower() == "j":
                                         print("Invalid input! Please enter again. (Letters only): ")
                                         guess = input("Enter your guess (letters only): ")
                                     else:
                                         break
-                                if guess not in Answer:
+                                if guess.lower() not in Answer:
                                     print("Incorrect! You loose!")
                                 else:
                                     print("Congratulations! You won!")
